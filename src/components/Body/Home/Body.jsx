@@ -81,7 +81,7 @@ export function Body() {
                     </div>
                     <div className="text">
                         <h3>
-                            Te ofrecemos la mejor experiencia de todas dentro de cintalapa somos la mejor opcion de todas para ti y cualquier otro acompañante que tengas y todo con la facilidad e un click
+                            Te ofrecemos la mejor experiencia de todas dentro de Chiapas somos la mejor opcion de todas para ti y cualquier otro acompañante que tengas y todo con la facilidad e un click
                         </h3>
                     </div>
                 </div>
