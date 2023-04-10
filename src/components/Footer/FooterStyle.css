@@ -1,0 +1,21 @@
+.body-footer{
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    align-items: center;
+    background: #E26D5C;
+}
+
+.body-footer .title a{
+    font-family: 'IM FELL Double Pica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.body-footer .title{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

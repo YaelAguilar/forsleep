@@ -1,0 +1,87 @@
+
+
+.cuartos{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cuartos .contenedor {
+    display: flex;
+    background: #ECECEC;
+    width: 70%;
+    margin-top: 4%;
+}
+
+.cuartos .contenedor .img img{
+    width: 100%;
+
+}
+ .cuartos .contenedor .img {
+    width: 40%;
+}
+
+.cuartos .contenedor .info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    margin: 2%;
+}
+
+.cuartos .contenedor .info h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+    color: #000000;
+}
+.cuartos .contenedor .info p{
+    width: 80%;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+
+.cuartos .contenedor .info .price{
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+    align-items: center;
+}
+
+.cuartos .contenedor .info .price h3{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.cuartos .contenedor .info .price a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    padding: 5%;
+    background: #1A4A8D;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+}
