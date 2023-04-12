@@ -67,8 +67,8 @@
         background: #FFFFFF;
         border: 4px solid #FEBB02;
         padding: 2%;
-        position: absolute;
-        bottom: 10%;
+        position: fixed;
+        bottom: 75%;
     }
     
     .body-home .img-back .lema h2{
@@ -82,15 +82,17 @@
     
     .body-home .sobre-hotel{
         display: flex;
+        
         justify-content: center;
         gap: 10%;
-        margin: 10%;
+        margin-right: 45%;
     }
     
     .body-home .sobre-hotel .text{
         display: flex;
         align-items: center;
         width: 30%;
+        margin-right: 50%;
     }
     
     .body-home .sobre-hotel .text h3{
