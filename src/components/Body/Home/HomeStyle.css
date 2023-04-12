@@ -56,3 +56,54 @@
     text-align: center;
     color: #000000;
 }
+
+@media (max-width:450px) {
+
+    .body-home .img-back{
+        height: 252px;
+    }
+
+    .body-home .img-back .lema{
+        background: #FFFFFF;
+        border: 4px solid #FEBB02;
+        padding: 2%;
+        position: absolute;
+        bottom: 10%;
+    }
+    
+    .body-home .img-back .lema h2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+    }
+    
+    .body-home .sobre-hotel{
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        margin: 10%;
+    }
+    
+    .body-home .sobre-hotel .text{
+        display: flex;
+        align-items: center;
+        width: 30%;
+    }
+    
+    .body-home .sobre-hotel .text h3{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+
+    
+
+       
+}
