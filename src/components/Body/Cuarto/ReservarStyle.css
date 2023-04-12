@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 450px
+    min-width: 450px;
 }
 .body-reservar .contenedor-cuarto .img{
     width: 100%;
@@ -123,4 +123,33 @@
     font-size: 32px;
     line-height: 39px;
     color: #FFFFFF;
+}
+
+@media (max-width:450px){
+
+    .body-reservar {
+        flex-direction: column;
+    }
+
+    .body-reservar .contenedor-cuarto{
+    min-height: 550px;
+    min-width: 40px;
+    
+    }
+
+    .body-reservar .reservar{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+
+    }
+
+    .body-reservar .reservar .text{
+    width: 340px;
+    }
+
+    .body-reservar .reservar .fecha{
+    width: 120px;
+    }
+    
 }
